@@ -11,3 +11,8 @@ function nowServing(lineNumber) {
     return `Currently serving ${lineNumber.shift()}.`;
   }
 }
+
+
+function currentLine(line) {
+
+}
