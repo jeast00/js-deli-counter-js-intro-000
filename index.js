@@ -9,6 +9,6 @@ function nowServing(lineNumber) {
   if(lineNumber.length < 0) {
     return `There is nobody waiting to be served!`;
   } else {
-    return `Currently serving ${lineNumber}`;
+    return `Currently serving ${lineNumber.name}`;
   }
 }
