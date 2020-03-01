@@ -5,4 +5,4 @@ function takeANumber(lineNumber, name) {
 
 
 function nowServing(lineNumber) {
-  return `Currently serving ${name}`;
+  return `Currently serving ${lineNumber}`;
