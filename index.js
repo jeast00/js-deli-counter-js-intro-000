@@ -5,5 +5,5 @@ function takeANumber(lineNumber, name) {
 
 
 function nowServing(lineNumber) {
-  return lineNumber.shift();
+  return lineNumber.shift(name);
 }
