@@ -17,5 +17,5 @@ function currentLine(line) {
   if(line.length === 0) {
     return `The line is currently empty.`;
   }
-  return `The line is currently: 1. ${takeANumber(lineNumber, name)}`;
+  return `The line is currently: ${takeANumber(lineNumber, name)}`;
 }
